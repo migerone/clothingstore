@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    tools:context=".SingleActivity">
+
+
+    <TextView
+        android:id="@+id/p_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="New Balance Shoes"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <ImageView
+        android:id="@+id/img_url"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/p_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latest Desihn in the Market, Welcome All for Our Offers and delivery options Available"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/p_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KES 3200"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white"
+        android:hint="ENter Phone 254"
+        android:id="@+id/phone"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Pay Now"
+        android:id="@+id/pay"/>
+
+</LinearLayout>
